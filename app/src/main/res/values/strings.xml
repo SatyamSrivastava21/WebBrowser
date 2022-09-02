@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Browser</string>
+    <string name="chrome">chrome</string>
+    <string name="brave">brave</string>
+    <string name="bing">bing</string>
+    <string name="wiki">wiki</string>
+    <string name="duckduckgo">duckduckgo</string>
+</resources>
