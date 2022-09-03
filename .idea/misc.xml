@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/drawable/buttondesign.xml" value="0.1855" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/activity_bing.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/activity_brave.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/activity_chrome.xml" value="0.23802083333333332" />
@@ -11,6 +12,11 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/activity_wiki.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/dashboard.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/facebook.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/fb.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/instagram.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/twitter.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyBrowser/app/src/main/res/layout/youtube.xml" value="0.23697916666666666" />
       </map>
     </option>
   </component>

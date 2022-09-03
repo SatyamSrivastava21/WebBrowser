@@ -21,9 +21,6 @@
             android:name=".duck"
             android:exported="false" />
         <activity
-            android:name=".bing"
-            android:exported="false" />
-        <activity
             android:name=".brave"
             android:exported="false" />
         <activity

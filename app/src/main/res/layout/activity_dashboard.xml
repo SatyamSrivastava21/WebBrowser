@@ -7,16 +7,16 @@
     tools:context=".Dashboard">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="272dp"
         android:layout_height="188dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.097"
-        />
+        app:layout_constraintVertical_bias="0.029" />
 
     <Button
         android:id="@+id/chrome"
@@ -27,9 +27,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.368" />
 
     <Button
         android:id="@+id/brave"
@@ -41,21 +42,22 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chrome"
-        app:layout_constraintVertical_bias="0.451" />
+        app:layout_constraintVertical_bias="0.304" />
 
     <Button
         android:id="@+id/bing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="236dp"
+        android:layout_marginBottom="292dp"
         android:backgroundTint="@color/white"
         android:text="@string/bing"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -67,22 +69,25 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bing"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.09" />
+
 
     <Button
+        android:id="@+id/ddg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:text="@string/duckduckgo"
-        android:id="@+id/ddg"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/wiki" />
+        app:layout_constraintTop_toBottomOf="@+id/wiki"
+        app:layout_constraintVertical_bias="0.12" />
 
     <ProgressBar
         android:id="@+id/progressbar"
@@ -91,7 +96,14 @@
         android:visibility="gone"
         tools:ignore="MissingConstraints" />
 
-
+    <ImageView
+        android:id="@+id/ig1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/img_1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+       />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
